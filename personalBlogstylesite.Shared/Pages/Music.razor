@@ -1,0 +1,49 @@
+@page "/music"
+
+<PageTitle>Music</PageTitle>
+
+<h2 class="title">Playlists</h2>
+<p class="lede">A collection of soundtracks for coding, thinking, and creating.</p>
+
+<div class="playlist-grid">
+    @foreach (var playlist in _playlists)
+    {
+        <div class="playlist-card">
+            <iframe style="border-radius:12px" 
+                    src="@playlist.EmbedUrl" 
+                    width="100%" 
+                    height="352" 
+                    frameBorder="0" 
+                    allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy">
+            </iframe>
+            <div class="playlist-info">
+                <h3>@playlist.Title</h3>
+                <p>@playlist.Description</p>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    private record SpotifyPlaylist(string Title, string Description, string EmbedUrl);
+    private List<SpotifyPlaylist> _playlists = new()
+    {
+        new(
+            "Terminal Velocity", 
+            "Deep focus electronic music. Minimal vocals, driving beats. For when the deadline is real and distractions aren't an option.",
+            "https://open.spotify.com/embed/playlist/37i9dQZF1DX0r3x8OtiwEM?utm_source=generator&theme=0"
+        ),
+        new(
+            "Decryption Keys",
+            "Lofi hip-hop and chill instrumental beats. The perfect low-key soundtrack for solving complex problems or late-night brainstorming.",
+            "https://open.spotify.com/embed/playlist/37i9dQZF1DWWQRwui02Gu5?utm_source=generator&theme=0"
+        ),
+        new(
+            "Mainframe Dreams",
+            "Synthwave and retro electro. A nostalgic trip back to 80s hacker movies. Best enjoyed with a flickering CRT monitor.",
+            "https://open.spotify.com/embed/playlist/37i9dQZF1DXdLEN7aqioXM?utm_source=generator&theme=0"
+        )
+    };
+}

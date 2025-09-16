@@ -1,0 +1,21 @@
+@using Microsoft.AspNetCore.Components
+
+@if (GifUrls != null && GifUrls.Any())
+{
+    <div class="gif-grid-container">
+        <h2>From the Void</h2>
+        <div class="gif-grid">
+            @foreach (var url in GifUrls)
+            {
+                <div class="gif-item">
+                    <img src="@url" loading="lazy" alt="A gif from the collection" />
+                </div>
+            }
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public List<string> GifUrls { get; set; } = new();
+}

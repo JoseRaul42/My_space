@@ -1,0 +1,47 @@
+.title {
+    font-size: clamp(22px, 2.6vw, 32px);
+    margin: 8px 0 4px;
+    text-shadow: 0 0 8px rgba(255, 125, 0, .5);
+}
+
+.lede {
+    color: var(--text-1);
+    margin-bottom: 2rem;
+    max-width: 60ch;
+}
+
+.playlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.playlist-card {
+    background: var(--bg-1);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    box-shadow: var(--shadow-2);
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.playlist-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-1);
+}
+
+.playlist-info {
+    padding: 1rem;
+}
+
+.playlist-info h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+    color: var(--accent-1);
+}
+
+.playlist-info p {
+    margin: 0;
+    color: var(--text-1);
+    font-size: 0.95rem;
+}

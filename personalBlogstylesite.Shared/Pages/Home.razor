@@ -1,0 +1,58 @@
+﻿@page "/"
+@using personalBlogstylesite.Shared
+
+<PageTitle>Home</PageTitle>
+
+<ShaderBackground />
+
+<div class="home-hero">
+    <h1>Welcome to my personal page.</h1>
+    <p>This is my personal space on the web. Check out my projects and see what I'm working on.</p>
+</div>
+
+<GifGrid GifUrls="_gifUrls" />
+
+@code {
+    private List<string> _gifUrls = new()
+    {
+        "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2Rtc2Q4N2R1a3JyZ2o0aGhsY21qN2s3eXl1b3Y3d3FzbG80bGVidCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggACQ0xuc/giphy.gif",
+        "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTgzYzM5MmYxN2E1ZTA2ZjFhZWI1ZDI0OGRjMGUwNGFkZWI5YTI1YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/11568A2T9gTH2w/giphy.gif",
+        "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3N2c3RucWk3aGI0azVzZzBqMGM3OXNndnhsdmhsc3Jwazh0ZWNxaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Z40aKzIkfRRd23bf2C/giphy.gif",
+        "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzhhNmM3NjY1N2JjY2U5MGU4Yjc2MzI5ZjM3NjU5ZTU2ZjEwNDQ3OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/I3EsiwQZmsa212Qd4w/giphy.gif"
+    };
+}
+
+<style>
+    .home-hero {
+        text-align: center;
+        padding: 4rem 1rem;
+        position: relative;
+        z-index: 1;
+    }
+    .home-hero h1 {
+        font-size: clamp(32px, 5vw, 56px);
+        color: var(--accent-1);
+        text-shadow: 0 0 15px rgba(255, 125, 0,.7);
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid var(--accent-1);
+        animation: typing 2.5s steps(8, end), caret .75s step-end infinite;
+    }
+    .home-hero p {
+        font-size: 1.125rem;
+        color: var(--text-1);
+        max-width: 60ch;
+        margin: 1rem auto 0;
+    }
+
+    @@keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+    }
+
+    @@keyframes caret {
+        from, to { border-color: transparent; }
+        50% { border-color: var(--accent-1); }
+    }
+</style>

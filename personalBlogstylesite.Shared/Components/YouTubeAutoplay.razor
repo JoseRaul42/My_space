@@ -1,0 +1,82 @@
+@using Microsoft.AspNetCore.Components
+@inject NavigationManager Nav
+@inject IJSRuntime JSRuntime
+@implements IAsyncDisposable
+
+<div class="yt-wrap @(Minimized ? "min" : "")">
+    <div class="yt-head">
+        <strong>Now Playing</strong>
+        <div class="spacer"></div>
+        <button class="btn" @onclick="ToggleMinimized">@((Minimized ? "Expand" : "Minimize"))</button>
+    </div>
+
+    <div class="yt-frame">
+        <div id="@_containerId"></div>
+    </div>
+
+    <div class="yt-controls">
+        <button class="btn primary" @onclick="ToggleMute" disabled="@(!_isPlayerReady)">
+            @(_isMuted ? "🔊 Unmute" : "🔇 Mute")
+        </button>
+        <button class="btn" @onclick="Restart" disabled="@(!_isPlayerReady)">⟲ Restart</button>
+    </div>
+</div>
+
+@code {
+    [Parameter] public string? VideoId { get; set; }
+    [Parameter] public bool Autoplay { get; set; } = true;
+    [Parameter] public bool Loop { get; set; } = true;
+    [Parameter] public bool Minimized { get; set; } = false;
+
+    private readonly string _containerId = $"yt-player-{Guid.NewGuid():N}";
+    private IJSObjectReference? _module;
+    private DotNetObjectReference<YouTubeAutoplay>? _dotNetHelper;
+    
+    private bool _isMuted = true;
+    private bool _isPlayerReady = false;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _dotNetHelper = DotNetObjectReference.Create(this);
+            _module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./js/youtubePlayerInterop.js");
+            await _module.InvokeVoidAsync("createPlayer", _dotNetHelper, _containerId, VideoId ?? "dQw4w9WgXcQ", Loop, Autoplay);
+        }
+    }
+
+    [JSInvokable]
+    public void OnPlayerReady()
+    {
+        _isPlayerReady = true;
+        StateHasChanged();
+    }
+
+    private async Task ToggleMute()
+    {
+        if (_module is not null)
+        {
+            _isMuted = !_isMuted;
+            await _module.InvokeVoidAsync("toggleMute", _containerId, _isMuted);
+        }
+    }
+
+    private async Task Restart()
+    {
+        if (_module is not null)
+        {
+            await _module.InvokeVoidAsync("restart", _containerId);
+        }
+    }
+
+    private void ToggleMinimized() => Minimized = !Minimized;
+
+    public async ValueTask DisposeAsync()
+    {
+        _dotNetHelper?.Dispose();
+        if (_module is not null)
+        {
+            await _module.DisposeAsync();
+        }
+    }
+}

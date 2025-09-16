@@ -1,0 +1,28 @@
+@page "/projects"
+
+<h2 class="title">Projects</h2>
+
+<div class="grid">
+    @foreach (var p in _projects)
+    {
+        <article class="card">
+            <header>
+                <h3>@p.Name</h3>
+                <span class="pill">@p.Tag</span>
+            </header>
+            <p>@p.Description</p>
+            <a class="link" href="@p.Url" target="_blank" rel="noopener">Visit →</a>
+        </article>
+    }
+</div>
+
+@code {
+    private record Project(string Name, string Tag, string Description, string Url);
+
+    private List<Project> _projects = new()
+    {
+        new("AI JSON Converter", "RAG", "Readable JSON format generator for LLM ingestion from any URL.", "https://github.com/joseraul42"),
+        new("Serving Data to Web App", "Svelte + Supabase", "End-to-end demo exposing DB data to a web client via APIs.", "https://github.com/joseraul42"),
+        new("Order Flow Bot", "Kraken WS", "Ichimoku 4h signal API and order flow summaries.", "https://github.com/joseraul42"),
+    };
+}
