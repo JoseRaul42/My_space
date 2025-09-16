@@ -2,13 +2,10 @@ C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogs
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\AboutAssets.txt
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\bootstrap\bootstrap.min.css.gz
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\bootstrap\bootstrap.min.css.map.gz
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\personalBlogstylesite.Shared.gtiytt7dcl.bundle.scp.css.gz
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\bootstrap\bootstrap.min.css.br
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\bootstrap\bootstrap.min.css.map.br
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\personalBlogstylesite.Shared.gtiytt7dcl.bundle.scp.css.br
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\app.css.br
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\app.css.gz
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\personalBlogstylesite.Shared.gtiytt7dcl.bundle.scp.css
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\app.css
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\bootstrap\bootstrap.min.css
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\bootstrap\bootstrap.min.css.map
@@ -464,7 +461,6 @@ C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogs
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\personalBlogstylesite.styles.css
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\o0c0d5utto-obgb1x923p.gz
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\9zlryise8m-d9dqvxgjex.gz
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\6n2lrkxzhl-s6iadjy7yh.gz
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\staticwebassets.build.json
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\staticwebassets.build.json.cache
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\staticwebassets.development.json
@@ -478,7 +474,6 @@ C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogs
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\staticwebassets.upToDateCheck.txt
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\o0c0d5utto-obgb1x923p.br
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\9zlryise8m-d9dqvxgjex.br
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\6n2lrkxzhl-s6iadjy7yh.br
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\staticwebassets.publish.json
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\staticwebassets.publish.endpoints.json
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
@@ -578,3 +573,14 @@ C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogs
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\js\shader.js.gz
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\js\youtubePlayerInterop.js.gz
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\personalBlogstylesite.Shared.5ni3l4r1no.bundle.scp.css.gz
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\js\shader.js.br
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\js\youtubePlayerInterop.js.br
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\personalBlogstylesite.Shared.5ni3l4r1no.bundle.scp.css.br
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\personalBlogstylesite.Shared.5ni3l4r1no.bundle.scp.css
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\js\shader.js
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\_content\personalBlogstylesite.Shared\js\youtubePlayerInterop.js
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\6n2lrkxzhl-4j2jau5lb8.gz
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\6n2lrkxzhl-4j2jau5lb8.br

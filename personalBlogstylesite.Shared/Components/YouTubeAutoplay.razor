@@ -39,9 +39,16 @@
     {
         if (firstRender)
         {
-            _dotNetHelper = DotNetObjectReference.Create(this);
-            _module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./js/youtubePlayerInterop.js");
-            await _module.InvokeVoidAsync("createPlayer", _dotNetHelper, _containerId, VideoId ?? "dQw4w9WgXcQ", Loop, Autoplay);
+            try
+            {
+                _dotNetHelper = DotNetObjectReference.Create(this);
+                _module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/personalBlogstylesite.Shared/js/youtubePlayerInterop.js");
+                await _module.InvokeVoidAsync("createPlayer", _dotNetHelper, _containerId, VideoId ?? "dQw4w9WgXcQ", Loop, Autoplay);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to load YouTube player module: {ex.Message}");
+            }
         }
     }
 

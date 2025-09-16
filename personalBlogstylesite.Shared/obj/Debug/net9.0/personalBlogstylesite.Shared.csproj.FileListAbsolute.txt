@@ -25,7 +25,6 @@ C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogs
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\yauuk6974t-da95v2qkru.gz
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\0kobilcn04-6gzpyzhau4.gz
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\7rdzq3e7ga-8inm30yfxf.gz
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\c92yh85r6v-nc0u1vnbgq.gz
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\ej84wwkb79-nx39br8dn7.gz
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\7sw9yghqpb-5ni3l4r1no.gz
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\kz9chgnrym-5ni3l4r1no.gz
@@ -44,3 +43,4 @@ C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogs
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\personalBlogstylesite.Shared.pdb
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\ref\personalBlogstylesite.Shared.dll
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\u1l4zu27lj-bxjn7v9rj7.gz

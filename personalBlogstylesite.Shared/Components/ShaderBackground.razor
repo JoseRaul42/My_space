@@ -1,10 +1,10 @@
 @inject IJSRuntime JSRuntime
 @implements IAsyncDisposable
 
-<canvas id="@_canvasId" class="shader-canvas"></canvas>
+<div id="@_containerId" class="shader-canvas"></div>
 
 @code {
-    private string _canvasId = $"shader-canvas-{Guid.NewGuid():N}";
+    private string _containerId = $"shader-container-{Guid.NewGuid():N}";
     private IJSObjectReference? _module;
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
@@ -13,15 +13,12 @@
         {
             try
             {
-                Console.WriteLine("Attempting to load shader module...");
-                _module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./js/shader.js");
-                Console.WriteLine("Shader module loaded successfully.");
-                await _module.InvokeVoidAsync("initializeMatrix", _canvasId);
-                Console.WriteLine("Shader initialized.");
+                _module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/personalBlogstylesite.Shared/js/scene.js");
+                await _module.InvokeVoidAsync("init", _containerId);
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error initializing shader: {ex.Message}");
+                Console.WriteLine($"Error initializing 3D scene: {ex.Message}");
             }
         }
     }

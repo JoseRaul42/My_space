@@ -48,17 +48,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1148"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 16 Sep 2025 21:36:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/personalBlogstylesite.Shared/js/shader.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\shader.js'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/personalBlogstylesite.Shared/js/scene.bxjn7v9rj7.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\scene.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ufU3rpVUiPT44klGJ5wLeIDulPLqYt0OpOgwa8g\u002BJq4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1564"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ufU3rpVUiPT44klGJ5wLeIDulPLqYt0OpOgwa8g\u002BJq4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 16 Sep 2025 22:18:27 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bxjn7v9rj7"},{"Name":"integrity","Value":"sha256-n1clYuOBCr0y7Xo1thXriw6g4uYsKUoTUzw/TDOCN6M="},{"Name":"label","Value":"_content/personalBlogstylesite.Shared/js/scene.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1698"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022n1clYuOBCr0y7Xo1thXriw6g4uYsKUoTUzw/TDOCN6M=\u0022"},{"Name":"Last-Modified","Value":"Tue, 16 Sep 2025 22:42:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/personalBlogstylesite.Shared/js/shader.nc0u1vnbgq.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\shader.js'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/personalBlogstylesite.Shared/js/scene.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\scene.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nc0u1vnbgq"},{"Name":"integrity","Value":"sha256-ufU3rpVUiPT44klGJ5wLeIDulPLqYt0OpOgwa8g\u002BJq4="},{"Name":"label","Value":"_content/personalBlogstylesite.Shared/js/shader.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1564"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ufU3rpVUiPT44klGJ5wLeIDulPLqYt0OpOgwa8g\u002BJq4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 16 Sep 2025 22:18:27 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-n1clYuOBCr0y7Xo1thXriw6g4uYsKUoTUzw/TDOCN6M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1698"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022n1clYuOBCr0y7Xo1thXriw6g4uYsKUoTUzw/TDOCN6M=\u0022"},{"Name":"Last-Modified","Value":"Tue, 16 Sep 2025 22:42:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/personalBlogstylesite.Shared/js/youtubePlayerInterop.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\youtubePlayerInterop.js'))</AssetFile>
