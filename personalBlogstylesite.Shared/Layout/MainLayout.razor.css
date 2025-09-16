@@ -11,12 +11,10 @@
 
 .content-wrap { 
     padding: clamp(16px, 3vw, 32px); 
-    position: relative;
-    z-index: 2;
 }
 
 .scanlines {
-  position: absolute;
+  position: fixed;
   inset: 0;
   pointer-events: none;
   background-image: linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px);
@@ -24,7 +22,6 @@
   opacity: .4;
   mix-blend-mode: overlay;
   animation: flicker 20s linear infinite reverse;
-  z-index: 1;
 }
 
 .player-dock {

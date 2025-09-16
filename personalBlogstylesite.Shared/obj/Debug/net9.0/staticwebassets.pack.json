@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\personalBlogstylesite.Shared.bundle.scp.css",
-      "PackagePath": "staticwebassets\\personalBlogstylesite.Shared.5ni3l4r1no.bundle.scp.css"
+      "PackagePath": "staticwebassets\\personalBlogstylesite.Shared.12ms4st1ty.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite.Shared\\wwwroot\\app.css",
@@ -19,10 +19,6 @@
     {
       "Id": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite.Shared\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
-    },
-    {
-      "Id": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite.Shared\\wwwroot\\js\\scene.js",
-      "PackagePath": "staticwebassets\\js\\scene.js"
     },
     {
       "Id": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite.Shared\\wwwroot\\js\\youtubePlayerInterop.js",
