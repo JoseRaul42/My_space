@@ -43,7 +43,7 @@
             {
                 _dotNetHelper = DotNetObjectReference.Create(this);
                 _module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/personalBlogstylesite.Shared/js/youtubePlayerInterop.js");
-                await _module.InvokeVoidAsync("createPlayer", _dotNetHelper, _containerId, VideoId ?? "dQw4w9WgXcQ", Loop, Autoplay);
+                await _module.InvokeVoidAsync("createPlayer", _dotNetHelper, _containerId, VideoId ?? "_iTfoFLz5nA", Loop, Autoplay);
             }
             catch (Exception ex)
             {
@@ -83,7 +83,15 @@
         _dotNetHelper?.Dispose();
         if (_module is not null)
         {
-            await _module.DisposeAsync();
+            try
+            {
+                // It's possible the JS side is already gone if the user navigated away quickly.
+                await _module.DisposeAsync();
+            }
+            catch (JSDisconnectedException)
+            {
+                // This is expected if the circuit is already gone. Do nothing.
+            }
         }
     }
 }

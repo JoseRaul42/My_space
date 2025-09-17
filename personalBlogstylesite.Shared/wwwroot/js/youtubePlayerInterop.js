@@ -30,7 +30,8 @@ export async function createPlayer(helper, containerId, videoId, loop, autoplay)
         width: '100%',
         videoId: videoId,
         playerVars: {
-            'autoplay': autoplay ? 1 : 0,
+            'autoplay': 1, // Keep autoplay enabled
+            'mute': 1,     // Start muted
             'controls': 0,
             'modestbranding': 1,
             'rel': 0,
@@ -41,7 +42,8 @@ export async function createPlayer(helper, containerId, videoId, loop, autoplay)
         },
         events: {
             'onReady': (event) => {
-                event.target.mute(); // Mute by default when ready
+                // Muting is handled by playerVars, now explicitly play
+                event.target.playVideo();
                 dotNetHelper.invokeMethodAsync('OnPlayerReady');
             }
         }

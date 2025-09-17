@@ -71,4 +71,4 @@ C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogs
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.pdb
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.genruntimeconfig.cache
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\ref\personalBlogstylesite.Web.dll
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\compressed\65iz05093f-ilji14v7mi.gz
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\compressed\65iz05093f-khragps1fb.gz

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "personalBlogstylesite.Web.Client",
   "resources": {
-    "hash": "sha256-rmEq5y3PIr9fKAQK3s57o7xPl/sa8enc7kvRseNRH6Y=",
+    "hash": "sha256-4B8AiyHfhXUu9R7fx/3gkl5BMqXFk2JVVB/LVBqCZf4=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.n7we7nbch1.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.waskkzx0nn.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,10 +201,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "personalBlogstylesite.Shared.731q7rbb9e.wasm": "personalBlogstylesite.Shared.wasm",
-      "personalBlogstylesite.Shared.vdg6190x7y.pdb": "personalBlogstylesite.Shared.pdb",
-      "personalBlogstylesite.Web.Client.czct6qhcu0.wasm": "personalBlogstylesite.Web.Client.wasm",
-      "personalBlogstylesite.Web.Client.y3og1v2ryc.pdb": "personalBlogstylesite.Web.Client.pdb"
+      "personalBlogstylesite.Shared.aq6jrkyzp5.wasm": "personalBlogstylesite.Shared.wasm",
+      "personalBlogstylesite.Shared.z32wh066tg.pdb": "personalBlogstylesite.Shared.pdb",
+      "personalBlogstylesite.Web.Client.9dk1k45mvt.wasm": "personalBlogstylesite.Web.Client.wasm",
+      "personalBlogstylesite.Web.Client.qme85qaquo.pdb": "personalBlogstylesite.Web.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.9ih887ebfz.js": "sha256-oS7IRiQoVt9ThQ7Y2UM3XoeY0JqPD02cg9IvRdufn2w="
@@ -414,12 +414,12 @@
       "WindowsBase.vy2l5u79y6.wasm": "sha256-ufB9Mo5joMyUs3DzXWWBFFIZNEVrt6h9N5stYB6Oln4=",
       "mscorlib.xd6mv31d55.wasm": "sha256-1YSLR2eZt3ceALFV//vZUF2AloxVil3VlrW1zZYPSEI=",
       "netstandard.kaml52uspo.wasm": "sha256-HLEwBpLfzKw2/zGSVzHzFJxznCkt/WIjahrziiMrOpA=",
-      "personalBlogstylesite.Shared.731q7rbb9e.wasm": "sha256-A6tY96BKF+IgyszUc8FQ76ecdAg+8L6SfrMXVp6hpAk=",
-      "personalBlogstylesite.Web.Client.czct6qhcu0.wasm": "sha256-+GRMNgxEA+Ij80AzHVOOTa4EVI6Pg6F6k8rW+V5be7I="
+      "personalBlogstylesite.Shared.aq6jrkyzp5.wasm": "sha256-0lNmnTLHYCtdu76W6dky0yjg7rA8pRtLkhDVnER8TTQ=",
+      "personalBlogstylesite.Web.Client.9dk1k45mvt.wasm": "sha256-o+7L+UtWwAnubS7yxmBXGCl65DaG8GoZeQqNO8ncovM="
     },
     "pdb": {
-      "personalBlogstylesite.Shared.vdg6190x7y.pdb": "sha256-jcKsKaIFfV+72d8nXs6S9WbGd0i25zXc9PnLOe5KDYA=",
-      "personalBlogstylesite.Web.Client.y3og1v2ryc.pdb": "sha256-DjuQgFVuLrAfCPIYSY0fazHgYon8RIrwHAtMD9Afu4I="
+      "personalBlogstylesite.Shared.z32wh066tg.pdb": "sha256-r2OX9BbCHNAzOBizaTB2dzxcdi6a0cXzhatKEQ6RxrY=",
+      "personalBlogstylesite.Web.Client.qme85qaquo.pdb": "sha256-7hZO7bFLYzW7R16lTkjswn1y1dc4e0bDl891DgiG5Uc="
     }
   },
   "cacheBootResources": true,

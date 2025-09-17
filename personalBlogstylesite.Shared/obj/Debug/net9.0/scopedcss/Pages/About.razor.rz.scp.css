@@ -1,6 +1,6 @@
 .hero[b-ewuhl3uali] {
   border: 1px solid var(--border);
-  background: linear-gradient(180deg, rgba(120, 41, 15,.08), rgba(255, 125, 0, .05));
+  background: linear-gradient(180deg, rgba(252, 163, 17, .1), transparent);
   padding: clamp(16px, 3vw, 28px);
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-1);
@@ -10,25 +10,10 @@
   font-size: clamp(28px, 3.2vw, 44px);
   margin: 0 0 6px;
   letter-spacing: .3px;
-  display: inline-block;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid var(--accent-2);
-  animation: typing 3s steps(15, end), caret .75s step-end infinite;
 }
-.hero .bracket[b-ewuhl3uali] { color: var(--accent-2); text-shadow: 0 0 8px rgba(120, 41, 15,.45); }
+.hero .bracket[b-ewuhl3uali] { color: var(--orange-web); text-shadow: 0 0 8px rgba(252, 163, 17, 0.45); }
 .tag[b-ewuhl3uali] { color: var(--text-1); margin: 0 0 12px; }
 .lede[b-ewuhl3uali] { color: var(--text-0); max-width: 70ch; }
 
 .music h2[b-ewuhl3uali] { margin: 18px 0 10px; }
 .note[b-ewuhl3uali] { color: var(--muted); font-size: .95rem; margin-top: 8px; }
-
-@@keyframes typing {
-    from[b-ewuhl3uali] { width: 0; }
-    to[b-ewuhl3uali] { width: 100%; }
-}
-
-@@keyframes caret {
-    from[b-ewuhl3uali], to[b-ewuhl3uali] { border-color: transparent; }
-    50%[b-ewuhl3uali] { border-color: var(--accent-2); }
-}
