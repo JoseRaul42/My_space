@@ -42,5 +42,5 @@ C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogs
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\ej84wwkb79-znwmry3h60.gz
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\17gn8jmei9-cld2y2wccc.gz
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\7sw9yghqpb-7z6px7qm21.gz
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\kz9chgnrym-7z6px7qm21.gz
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\7sw9yghqpb-tlh2qasgx0.gz
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\kz9chgnrym-tlh2qasgx0.gz

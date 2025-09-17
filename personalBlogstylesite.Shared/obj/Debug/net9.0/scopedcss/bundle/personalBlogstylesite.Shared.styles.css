@@ -223,58 +223,180 @@ main[b-ewuhl3uali] {
     font-size: 0.95rem;
 }
 /* _content/personalBlogstylesite.Shared/Pages/Projects.razor.rz.scp.css */
-.title[b-gdefkk7azm] { 
-    font-size: clamp(22px, 2.6vw, 32px); 
-    margin: 8px 0 16px; 
-    text-shadow: 0 0 8px rgba(252, 163, 17, 0.5);
+/* ==========================================================================
+   Projects Grid + Cards (dark, high-contrast, click-inviting)
+   ========================================================================== */
+
+/* Optional safe defaults if a var is missing */
+:root[b-gdefkk7azm] {
+    --gap: 18px;
+    --radius-lg: 14px;
+    --transition: 200ms ease;
 }
 
+/* Title: crisp, legible, eye-catching */
+.title[b-gdefkk7azm] {
+    font-size: clamp(22px, 2.6vw, 34px);
+    margin: 8px 0 18px;
+    letter-spacing: 0.2px;
+    color: var(--platinum);
+    text-shadow: 0 0 8px rgba(252, 163, 17, 0.45);
+}
+
+/* Respect space for any fixed player */
 main[b-gdefkk7azm] {
-  padding-bottom: 120px; /* Safe area for the player */
+    padding-bottom: 120px;
 }
 
+/* Responsive grid */
 .grid[b-gdefkk7azm] {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--gap);
+    align-items: stretch;
 }
+
+/* Card base */
 .card[b-gdefkk7azm] {
-  background: var(--bg-2);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 14px;
-  box-shadow: var(--shadow-2);
-  transform: translateY(0); opacity: .98;
-  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
-  position: relative;
-  overflow: hidden;
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 16px;
+    box-shadow: var(--shadow-2);
+    transform: translateY(0);
+    opacity: 0.98;
+    position: relative;
+    overflow: hidden;
+    transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition), background var(--transition);
+    isolation: isolate; /* keeps glow behind content */
 }
 
-.card:hover[b-gdefkk7azm] {
-  transform: translateY(-3px);
-  border-color: var(--orange-web);
-  box-shadow: 0 16px 40px rgba(0,0,0,.45);
-}
+    /* Subtle spotlight on hover */
+    .card[b-gdefkk7azm]::before {
+        content: "";
+        position: absolute;
+        inset: -30% -20%;
+        background: radial-gradient(120px 120px at var(--mx, 50%) var(--my, 50%), rgba(252, 163, 17, 0.15), transparent 60%);
+        opacity: 0;
+        transition: opacity var(--transition);
+        pointer-events: none;
+        z-index: 0;
+    }
 
-.card header[b-gdefkk7azm] {
-  display: flex; align-items: center; gap: 10px; margin-bottom: 6px;
-}
-.card h3[b-gdefkk7azm] { margin: 0; font-size: 1.05rem; color: var(--text-0); }
+    /* Elevation + accent border on hover */
+    .card:hover[b-gdefkk7azm] {
+        transform: translateY(-3px);
+        border-color: var(--orange-web);
+        box-shadow: 0 16px 40px rgba(0,0,0,.45);
+    }
+
+        .card:hover[b-gdefkk7azm]::before {
+            opacity: 1;
+        }
+
+    /* Header: name + language pill */
+    .card header[b-gdefkk7azm] {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 8px;
+        z-index: 1;
+    }
+
+    .card h3[b-gdefkk7azm] {
+        margin: 0;
+        font-size: 1.1rem;
+        color: var(--text-0);
+        line-height: 1.2;
+    }
+
+/* Language pill */
 .pill[b-gdefkk7azm] {
-  font-size: .8rem; color: var(--text-0);
-  background: var(--oxford-blue);
-  border: 1px solid var(--border);
-  padding: 2px 8px; border-radius: 999px;
+    font-size: 0.8rem;
+    color: var(--platinum);
+    background: color-mix(in srgb, var(--oxford-blue) 70%, black 30%);
+    border: 1px solid var(--border);
+    padding: 2px 10px;
+    border-radius: 999px;
+    white-space: nowrap;
 }
-.card p[b-gdefkk7azm] { color: var(--text-1); min-height: 3.5em; }
+
+/* Description: readable length + spacing */
+.card p[b-gdefkk7azm] {
+    color: var(--text-1);
+    font-size: 1rem;
+    line-height: 1.55;
+    min-height: 3.6em; /* keeps rows balanced */
+    margin: 6px 0 10px;
+    z-index: 1;
+}
+
+/* Link: animated underline + arrow cue */
 .link[b-gdefkk7azm] {
-  display: inline-block; margin-top: 8px;
-  color: var(--accent-1); text-decoration: none;
-  border-bottom: 1px dashed var(--border);
-  transition: color var(--transition), transform var(--transition);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 6px;
+    color: var(--accent-1);
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    transition: color var(--transition), transform var(--transition);
 }
-.link:hover[b-gdefkk7azm] { 
-    transform: translateY(-1px); 
-    color: var(--orange-web); 
-    text-shadow: 0 0 5px rgba(252, 163, 17, 0.7);
+
+    .link[b-gdefkk7azm]::after {
+        content: "↗";
+        font-size: 0.95em;
+        transform: translateY(1px);
+        transition: transform var(--transition);
+    }
+
+    /* Smooth underline reveal */
+    .link span[b-gdefkk7azm] {
+        background: linear-gradient(currentColor, currentColor) left bottom / 0 2px no-repeat;
+        transition: background-size var(--transition);
+        padding-bottom: 2px;
+    }
+
+    /* Hover/focus states invite the click */
+    .link:hover[b-gdefkk7azm],
+    .link:focus-visible[b-gdefkk7azm] {
+        transform: translateY(-1px);
+        color: var(--orange-web);
+        text-shadow: 0 0 6px rgba(252, 163, 17, 0.7);
+    }
+
+        .link:hover[b-gdefkk7azm]::after,
+        .link:focus-visible[b-gdefkk7azm]::after {
+            transform: translate(2px, 1px);
+        }
+
+        .link:hover span[b-gdefkk7azm],
+        .link:focus-visible span[b-gdefkk7azm] {
+            background-size: 100% 2px;
+        }
+
+    /* Keyboard focus ring for accessibility */
+    .card:focus-within[b-gdefkk7azm],
+    .link:focus-visible[b-gdefkk7azm] {
+        outline: 2px solid color-mix(in srgb, var(--orange-web) 70%, white 30%);
+        outline-offset: 2px;
+        border-radius: 10px;
+    }
+
+/* Pointer tracking for glow (optional JS hook) */
+.card:hover[b-gdefkk7azm] {
+    cursor: pointer;
+}
+
+/* Prefer-reduced-motion: keep it calm for those who need it */
+@media (prefers-reduced-motion: reduce) {
+    .card[b-gdefkk7azm], .link[b-gdefkk7azm], .link[b-gdefkk7azm]::after, .link span[b-gdefkk7azm], .card[b-gdefkk7azm]::before {
+        transition: none !important;
+    }
+
+        .card:hover[b-gdefkk7azm] {
+            transform: none;
+        }
 }
