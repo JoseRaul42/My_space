@@ -6,6 +6,11 @@
   box-shadow: var(--shadow-1);
   margin-bottom: 24px;
 }
+
+main[b-ewuhl3uali] {
+  padding-bottom: 120px; /* Safe area for the player */
+}
+
 .hero h1[b-ewuhl3uali] {
   font-size: clamp(28px, 3.2vw, 44px);
   margin: 0 0 6px;

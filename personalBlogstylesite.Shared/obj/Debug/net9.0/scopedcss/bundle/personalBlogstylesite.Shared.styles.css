@@ -31,6 +31,10 @@
 }
 /* _content/personalBlogstylesite.Shared/Components/YouTubeAutoplay.razor.rz.scp.css */
 .yt-wrap[b-9xtmguouxv] {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 50;
   width: 360px; max-width: 92vw;
   background: linear-gradient(180deg, var(--bg-1), var(--bg-0));
   border: 1px solid var(--border);
@@ -86,13 +90,6 @@
   opacity: .4;
   mix-blend-mode: overlay;
   animation: flicker 20s linear infinite reverse;
-}
-
-.player-dock[b-0fvv1geb2k] {
-  position: fixed;
-  right: 16px;
-  bottom: 16px;
-  z-index: 50;
 }
 /* _content/personalBlogstylesite.Shared/Layout/NavMenu.razor.rz.scp.css */
 .nav[b-xzxzfa5kwy] {
@@ -161,6 +158,11 @@
   box-shadow: var(--shadow-1);
   margin-bottom: 24px;
 }
+
+main[b-ewuhl3uali] {
+  padding-bottom: 120px; /* Safe area for the player */
+}
+
 .hero h1[b-ewuhl3uali] {
   font-size: clamp(28px, 3.2vw, 44px);
   margin: 0 0 6px;
@@ -225,6 +227,10 @@
     font-size: clamp(22px, 2.6vw, 32px); 
     margin: 8px 0 16px; 
     text-shadow: 0 0 8px rgba(252, 163, 17, 0.5);
+}
+
+main[b-gdefkk7azm] {
+  padding-bottom: 120px; /* Safe area for the player */
 }
 
 .grid[b-gdefkk7azm] {

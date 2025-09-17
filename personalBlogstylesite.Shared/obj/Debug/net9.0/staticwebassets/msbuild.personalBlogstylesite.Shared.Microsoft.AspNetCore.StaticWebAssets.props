@@ -100,6 +100,26 @@
       <LastWriteTime>Tue, 16 Sep 2025 21:36:23 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\draggableInterop.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>personalBlogstylesite.Shared</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/personalBlogstylesite.Shared</BasePath>
+      <RelativePath>js/draggableInterop.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cld2y2wccc</Fingerprint>
+      <Integrity>sKQYZmKR9Zj7pVXBMOgLBmQ6fPpk7nBddHov7RpcZRM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>2140</FileLength>
+      <LastWriteTime>Wed, 17 Sep 2025 01:03:30 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\draggableInterop.js'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\youtubePlayerInterop.js'))">
       <SourceType>Package</SourceType>
       <SourceId>personalBlogstylesite.Shared</SourceId>
@@ -120,25 +140,25 @@
       <LastWriteTime>Tue, 16 Sep 2025 23:55:50 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\youtubePlayerInterop.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\personalBlogstylesite.Shared.1xnnjehga2.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\personalBlogstylesite.Shared.7z6px7qm21.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>personalBlogstylesite.Shared</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/personalBlogstylesite.Shared</BasePath>
-      <RelativePath>personalBlogstylesite.Shared.1xnnjehga2.bundle.scp.css</RelativePath>
+      <RelativePath>personalBlogstylesite.Shared.7z6px7qm21.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>1xnnjehga2</Fingerprint>
-      <Integrity>KywN6WUAPueqboIsJxwebdns51Q6tZL0n2YEOhv2oLM=</Integrity>
+      <Fingerprint>7z6px7qm21</Fingerprint>
+      <Integrity>k0yh+nJDquMf0aLGX2eycSYmpiy0E9BMduqcpjCnxvc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <FileLength>8885</FileLength>
-      <LastWriteTime>Tue, 16 Sep 2025 23:44:41 GMT</LastWriteTime>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\personalBlogstylesite.Shared.1xnnjehga2.bundle.scp.css'))</OriginalItemSpec>
+      <FileLength>9020</FileLength>
+      <LastWriteTime>Wed, 17 Sep 2025 01:03:39 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\personalBlogstylesite.Shared.7z6px7qm21.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

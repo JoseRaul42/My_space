@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\personalBlogstylesite.Shared.bundle.scp.css",
-      "PackagePath": "staticwebassets\\personalBlogstylesite.Shared.1xnnjehga2.bundle.scp.css"
+      "PackagePath": "staticwebassets\\personalBlogstylesite.Shared.7z6px7qm21.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite.Shared\\wwwroot\\app.css",
@@ -23,6 +23,10 @@
     {
       "Id": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite.Shared\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite.Shared\\wwwroot\\js\\draggableInterop.js",
+      "PackagePath": "staticwebassets\\js\\draggableInterop.js"
     },
     {
       "Id": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite.Shared\\wwwroot\\js\\youtubePlayerInterop.js",

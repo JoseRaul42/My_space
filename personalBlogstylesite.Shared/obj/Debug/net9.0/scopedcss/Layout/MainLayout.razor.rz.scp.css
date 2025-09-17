@@ -21,10 +21,3 @@
   mix-blend-mode: overlay;
   animation: flicker 20s linear infinite reverse;
 }
-
-.player-dock[b-0fvv1geb2k] {
-  position: fixed;
-  right: 16px;
-  bottom: 16px;
-  z-index: 50;
-}

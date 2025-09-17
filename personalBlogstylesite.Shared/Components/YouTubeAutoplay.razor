@@ -3,8 +3,8 @@
 @inject IJSRuntime JSRuntime
 @implements IAsyncDisposable
 
-<div class="yt-wrap @(Minimized ? "min" : "")">
-    <div class="yt-head">
+<div id="@_wrapperId" class="yt-wrap @(Minimized ? "min" : "")">
+    <div id="@_handleId" class="yt-head" style="cursor: move;">
         <strong>Now Playing</strong>
         <div class="spacer"></div>
         <button class="btn" @onclick="ToggleMinimized">@((Minimized ? "Expand" : "Minimize"))</button>
@@ -29,7 +29,10 @@
     [Parameter] public bool Minimized { get; set; } = false;
 
     private readonly string _containerId = $"yt-player-{Guid.NewGuid():N}";
-    private IJSObjectReference? _module;
+    private readonly string _wrapperId = $"yt-wrapper-{Guid.NewGuid():N}";
+    private readonly string _handleId = $"yt-handle-{Guid.NewGuid():N}";
+    private IJSObjectReference? _playerModule;
+    private IJSObjectReference? _draggableModule;
     private DotNetObjectReference<YouTubeAutoplay>? _dotNetHelper;
     
     private bool _isMuted = true;
@@ -42,8 +45,11 @@
             try
             {
                 _dotNetHelper = DotNetObjectReference.Create(this);
-                _module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/personalBlogstylesite.Shared/js/youtubePlayerInterop.js");
-                await _module.InvokeVoidAsync("createPlayer", _dotNetHelper, _containerId, VideoId ?? "_iTfoFLz5nA", Loop, Autoplay);
+                _playerModule = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/personalBlogstylesite.Shared/js/youtubePlayerInterop.js");
+                await _playerModule.InvokeVoidAsync("createPlayer", _dotNetHelper, _containerId, VideoId ?? "_iTfoFLz5nA", Loop, Autoplay);
+
+                _draggableModule = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/personalBlogstylesite.Shared/js/draggableInterop.js");
+                await _draggableModule.InvokeVoidAsync("initDraggable", _wrapperId, _handleId);
             }
             catch (Exception ex)
             {
@@ -61,18 +67,18 @@
 
     private async Task ToggleMute()
     {
-        if (_module is not null)
+        if (_playerModule is not null)
         {
             _isMuted = !_isMuted;
-            await _module.InvokeVoidAsync("toggleMute", _containerId, _isMuted);
+            await _playerModule.InvokeVoidAsync("toggleMute", _containerId, _isMuted);
         }
     }
 
     private async Task Restart()
     {
-        if (_module is not null)
+        if (_playerModule is not null)
         {
-            await _module.InvokeVoidAsync("restart", _containerId);
+            await _playerModule.InvokeVoidAsync("restart", _containerId);
         }
     }
 
@@ -81,17 +87,21 @@
     public async ValueTask DisposeAsync()
     {
         _dotNetHelper?.Dispose();
-        if (_module is not null)
+        if (_playerModule is not null)
         {
             try
             {
                 // It's possible the JS side is already gone if the user navigated away quickly.
-                await _module.DisposeAsync();
+                await _playerModule.DisposeAsync();
             }
             catch (JSDisconnectedException)
             {
                 // This is expected if the circuit is already gone. Do nothing.
             }
+        }
+        if (_draggableModule is not null)
+        {
+            await _draggableModule.DisposeAsync();
         }
     }
 }

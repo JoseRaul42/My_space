@@ -1,5 +1,7 @@
 ﻿@inherits LayoutComponentBase
 
+<link href="@($"css/theme.css?v={Guid.NewGuid()}")" rel="stylesheet" />
+
 <div class="app-shell">
     <NavMenu />
     <div class="scanlines" aria-hidden="true"></div>
@@ -7,10 +9,8 @@
         @Body
     </div>
 
-    <!-- Floating player lives here so it persists across pages -->
-    <div class="player-dock">
-        <YouTubeAutoplay VideoId="_iTfoFLz5nA" Autoplay="true" Loop="true" Minimized="true" />
-    </div>
+    <!-- The floating player now lives here directly to be freely positioned -->
+    <YouTubeAutoplay VideoId="_iTfoFLz5nA" Autoplay="true" Loop="true" Minimized="true" />
 </div>
 
 <style>
