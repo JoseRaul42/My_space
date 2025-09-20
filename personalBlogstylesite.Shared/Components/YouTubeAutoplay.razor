@@ -5,7 +5,7 @@
 
 <div id="@_wrapperId" class="yt-wrap @(Minimized ? "min" : "")">
     <div id="@_handleId" class="yt-head" style="cursor: move;">
-        <strong>Now Playing</strong>
+        <strong>MP3 Player</strong>
         <div class="spacer"></div>
         <button class="btn" @onclick="ToggleMinimized">@((Minimized ? "Expand" : "Minimize"))</button>
     </div>
@@ -46,7 +46,7 @@
             {
                 _dotNetHelper = DotNetObjectReference.Create(this);
                 _playerModule = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/personalBlogstylesite.Shared/js/youtubePlayerInterop.js");
-                await _playerModule.InvokeVoidAsync("createPlayer", _dotNetHelper, _containerId, VideoId ?? "_iTfoFLz5nA", Loop, Autoplay);
+                await _playerModule.InvokeVoidAsync("createPlayer", _dotNetHelper, _containerId, VideoId ?? "JjLyH4s-bDY", Loop, Autoplay);
 
                 _draggableModule = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/personalBlogstylesite.Shared/js/draggableInterop.js");
                 await _draggableModule.InvokeVoidAsync("initDraggable", _wrapperId, _handleId);
@@ -101,7 +101,14 @@
         }
         if (_draggableModule is not null)
         {
-            await _draggableModule.DisposeAsync();
+            try
+            {
+                await _draggableModule.DisposeAsync();
+            }
+            catch (JSDisconnectedException)
+            {
+                // This is expected if the circuit is already gone. Do nothing.
+            }
         }
     }
 }

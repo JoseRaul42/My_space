@@ -1,33 +1,43 @@
-﻿@inherits LayoutComponentBase
-
-<link href="@($"css/theme.css?v={Guid.NewGuid()}")" rel="stylesheet" />
+@inherits LayoutComponentBase
+@using personalBlogstylesite.Shared.Components
+@using personalBlogstylesite.Shared.Layout
 
 <div class="app-shell">
-    <NavMenu />
     <div class="scanlines" aria-hidden="true"></div>
+    <NavMenu />
     <div class="content-wrap">
         @Body
     </div>
 
-    <!-- The floating player now lives here directly to be freely positioned -->
-    <YouTubeAutoplay VideoId="_iTfoFLz5nA" Autoplay="true" Loop="true" Minimized="true" />
+    <!-- Floating player lives here so it persists across pages -->
+    <div class="player-dock">
+        <YouTubeAutoplay VideoId="JjLyH4s-bDY" Autoplay="true" Loop="true" Minimized="true" />
+    </div>
 </div>
 
 <style>
-@@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
-
+/* Global theme variables (dark-only) */
+:root {
+  --bg-0: #0b0f14;
+  --bg-1: #0f1720;
+  --bg-2: #111827;
+  --text-0: #e6edf3;
+  --text-1: #b6c2cf;
+  --accent-1: #22d3ee;
+  --accent-2: #a78bfa;
+  --accent-3: #f59e0b;
+  --ok: #2dd4bf;
+  --warn: #fbbf24;
+  --err: #f43f5e;
+  --border: #1f2937;
+  --muted: #94a3b8;
+  --radius-xl: 1.25rem; --radius-lg: .875rem;
+  --shadow-1: 0 10px 30px rgba(0,0,0,.35);
+  --shadow-2: 0 6px 18px rgba(0,0,0,.3);
+  --transition: 220ms cubic-bezier(.2,.8,.2,1);
+}
 @@media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
 }
-
-body {
-    font-family: var(--font-mono);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-@@keyframes flicker {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.95; }
-}
 </style>
+

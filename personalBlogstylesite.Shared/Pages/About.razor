@@ -1,62 +1,100 @@
 @page "/about"
 
-<section style="background:linear-gradient(135deg,#14213d,#000);color:#e5e5e5;padding:3rem 2rem;border-radius:0.75rem;border:1px solid rgba(229,229,229,.12);margin-bottom:2rem;">
-    <h1 style="font-size:2.25rem;font-weight:700;color:#fca311;margin-bottom:1rem;">
-        [ Jose Valois ]
-    </h1>
-    <p style="font-size:1rem;margin-bottom:1rem;color:#ccc;">
-        Full-stack & Data Engineering • Advanced SQL • .NET • Python • Security-minded builder
-    </p>
-    <p style="font-size:1.25rem;line-height:1.7;margin-bottom:1.25rem;">
-        I build ETL pipelines, run large-scale data conversions, and create internal tools that cut dev toil. I lean on advanced SQL and automation to ship reliable, production-ready systems.
-    </p>
-</section>
+<div class="container about-grid">
+    <!-- Hero / Intro -->
+    <section class="card about-hero">
+        <header class="about-header">
+            <span class="kicker">About</span>
+            <h1>[ Jose Valois ]</h1>
+            <p class="subtitle">
+                Full-Stack Developer & Data Engineer focused on backend systems, scalable data infrastructure, and automation.
+            </p>
+        </header>
+
+        <p class="lead">
+            I’m a Full-Stack Developer and Data Engineer with deep experience in advanced T-SQL for performance-driven querying,
+            .NET for durable internal apps, and Python for data transformation and automation. I build with a security-minded lens,
+            aiming for reliability, clarity, and resilience in production.
+        </p>
+
+        <p>
+            Much of my work centers on designing and deploying end-to-end ETL pipelines that move and transform critical business
+            data efficiently. I lead complex data conversion efforts, creating internal tools that reduce manual overhead, improve
+            auditability, and shorten delivery timelines. I care a lot about eliminating repetitive developer toil through
+            thoughtful automation so teams can focus on higher-value work. Whether building new systems or modernizing legacy,
+            I emphasize maintainability and high performance—powered by SQL and C# at the core.
+        </p>
+    </section>
+
+    <!-- Key Facts -->
+    <aside class="card about-aside">
+        <div class="fact-list">
+            <div class="fact">
+                <span class="fact-label">Core Expertise</span>
+                <span class="fact-value">Oil & Gas implementations and conversions engineering; high-throughput ETL; internal tools in .NET/C# that reduce developer toil and accelerate cutovers.</span>
+            </div>
+            <div class="fact">
+                <span class="fact-label">Target Roles</span>
+                <span class="fact-value">Data-focused engineering positions building reliable pipelines, integrations, and conversion tooling in enterprise O&G environments.</span>
+            </div>
+            <div class="fact">
+                <span class="fact-label">Domain Coverage</span>
+                <span class="fact-value">Revenue/AP, JIB, production & allocations, land/DOI, A&D; end-to-end data conversions with validation, reconciliations, and cutover readiness.</span>
+            </div>
+        </div>
+    </aside>
 
 
-<section style="background:linear-gradient(135deg,#14213d,#000);color:#e5e5e5;padding:3rem 2rem;border-radius:0.75rem;border:1px solid rgba(229,229,229,.12);margin-bottom:2rem;">
-    <p style="font-size:1.125rem;margin-bottom:1.25rem;line-height:1.6;">
-        <span style="font-weight:700;color:#fca311;">Self Taught Developer 💻👾💾</span><br />
-        Full stack engineer adept at working with SQL, C#, .NET, PowerShell, Node.js, and Azure DevOps.<br />
-        I’ve successfully delivered scalable data solutions and backend software application support.<br />
-        My experience was built on delivering complex, data-driven projects where I applied
-        engineering best practices to create production-ready implementations and data conversions.
-    </p>
+    <!-- Self-taught / Interests -->
+    <section class="card about-extras">
+        <h2>Self-Taught Developer 💻👾💾</h2>
+        <p>
+            Full-stack engineer comfortable with SQL, C#, .NET, PowerShell, Node.js, and Azure DevOps. I’ve delivered scalable
+            data solutions and backend application support, applying engineering best practices to ship production-ready
+            implementations and data conversions.
+        </p>
+        <p>
+            In my free time, I explore locally hosted LLMs on consumer-grade hardware and push edge-compute experiments through
+            personal projects. I also enjoy discovering new music and playing Total War: Warhammer 3.
+        </p>
+    </section>
 
-    <p style="font-size:1.125rem;margin-bottom:1.25rem;line-height:1.6;">
-        In my free time, I explore use cases for locally hosted LLMs on consumer-grade hardware,
-        pushing the limits of edge computing through personal projects.<br />
-        I also enjoy discovering new music and playing Total WarHammer 3.<br />
-        Currently, I'm seeking data-focused engineering or software engineering roles
-        with forward-thinking teams.
-    </p>
-</section>
+    <!-- Tech Stack as chips -->
+    <section class="card tech">
+        <h2>Tech Stack</h2>
 
-<section style="background:linear-gradient(135deg,#14213d,#000);color:#e5e5e5;padding:3rem 2rem;border-radius:0.75rem;border:1px solid rgba(229,229,229,.12);margin-bottom:2rem;">
-    <h3 style="font-size:1.5rem;font-weight:600;color:#fca311;margin-bottom:1rem;">Tech Stack</h3>
-    <ul style="font-size:1.0625rem;line-height:1.6;padding-left:1rem;list-style:none;">
-        <li style="margin-bottom:0.5rem;">
-            <span style="font-weight:700;color:#fca311;">Programming:</span>
-            PowerShell, C#, .NET, Python, Bash, C++, Lua, JavaScript, TypeScript, Svelte, HolyC
-        </li>
-        <li style="margin-bottom:0.5rem;">
-            <span style="font-weight:700;color:#fca311;">Databases:</span>
-            SQL Server, PL/SQL, Postgres, Supabase, SQLite, Milvus
-        </li>
-        <li style="margin-bottom:0.5rem;">
-            <span style="font-weight:700;color:#fca311;">ETL & Reporting:</span>
-            SSIS, SSRS
-        </li>
-        <li style="margin-bottom:0.5rem;">
-            <span style="font-weight:700;color:#fca311;">Cloud Platforms:</span>
-            AWS, Azure, Oracle Cloud Infrastructure (OCI)
-        </li>
-        <li style="margin-bottom:0.5rem;">
-            <span style="font-weight:700;color:#fca311;">OS Environments:</span>
-            Windows, Linux, Unix, TempleOS
-        </li>
-        <li style="margin-bottom:0.5rem;">
-            <span style="font-weight:700;color:#fca311;">UI & Frontend:</span>
-            Tailwind CSS, React, Svelte, TypeScript, JavaScript, Node.js
-        </li>
-    </ul>
-</section>
+        <div class="tech-group">
+            <h3>Programming</h3>
+            <ul class="chips">
+                <li class="chip">PowerShell</li><li class="chip">C#</li><li class="chip">.NET</li>
+                <li class="chip">Python</li><li class="chip">Bash</li><li class="chip">C++</li>
+                <li class="chip">Lua</li><li class="chip">JavaScript</li><li class="chip">TypeScript</li>
+                <li class="chip">Svelte</li><li class="chip">HolyC</li>
+            </ul>
+        </div>
+
+        <div class="tech-group">
+            <h3>Databases</h3>
+            <ul class="chips">
+                <li class="chip">SQL Server</li><li class="chip">PL/SQL</li><li class="chip">Postgres</li>
+                <li class="chip">Supabase</li><li class="chip">SQLite</li><li class="chip">Milvus</li>
+            </ul>
+        </div>
+
+        <div class="tech-group">
+            <h3>ETL & Reporting</h3>
+            <ul class="chips">
+                <li class="chip">SSIS</li><li class="chip">SSRS</li>
+            </ul>
+        </div>
+
+        <div class="tech-group">
+            <h3>Cloud Platforms</h3>
+            <ul class="chips">
+                <li class="chip">AWS</li><li class="chip">Azure</li><li class="chip">OCI</li>
+            </ul>
+        </div>
+
+    </section>
+
+</div>

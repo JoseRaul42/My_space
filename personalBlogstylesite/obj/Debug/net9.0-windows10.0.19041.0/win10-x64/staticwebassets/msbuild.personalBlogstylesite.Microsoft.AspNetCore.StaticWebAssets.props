@@ -52,12 +52,12 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>4j2jau5lb8</Fingerprint>
-      <Integrity>kKXe9Oaq9r5MRYwzjqASkk/EOg9zuvJHeF/g2+qf0xo=</Integrity>
+      <Fingerprint>2j8y4bfphx</Fingerprint>
+      <Integrity>UuBgeMa5jJSiY1Enw37AWZci55fc7VlWnf6m70BOt1E=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>107</FileLength>
-      <LastWriteTime>Tue, 16 Sep 2025 22:40:41 GMT</LastWriteTime>
+      <LastWriteTime>Sat, 20 Sep 2025 13:11:54 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\personalBlogstylesite.styles.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
