@@ -5,8 +5,8 @@ wwwroot\css\theme.css
 wwwroot\favicon.png
 wwwroot\js\draggableInterop.js
 wwwroot\js\youtubePlayerInterop.js
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\wwwroot\js\draggableInterop.js
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\wwwroot\js\youtubePlayerInterop.js
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\wwwroot\js\draggableInterop.js
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\wwwroot\app.css
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\wwwroot\bootstrap\bootstrap.min.css.map
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\wwwroot\bootstrap\bootstrap.min.css
