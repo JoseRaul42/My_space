@@ -28,6 +28,14 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Afro/Projects/personalBlogstylesite/personalBlogstylesite/personalBlogstylesite.Web.Client/personalBlogstylesite.Shared/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = cGVyc29uYWxCbG9nc3R5bGVzaXRlLlNoYXJlZFxQYWdlc1xBYm91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Afro/Projects/personalBlogstylesite/personalBlogstylesite/personalBlogstylesite.Web.Client/personalBlogstylesite.Shared/Pages/Projects.razor]
+build_metadata.AdditionalFiles.TargetPath = cGVyc29uYWxCbG9nc3R5bGVzaXRlLlNoYXJlZFxQYWdlc1xQcm9qZWN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Afro/Projects/personalBlogstylesite/personalBlogstylesite/personalBlogstylesite.Web.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
