@@ -25,3 +25,264 @@
   --transition: 220ms cubic-bezier(.2,.8,.2,1);
   --font-mono: 'IBM Plex Mono', monospace;
 }
+/* COMBINED COMPONENT STYLES */
+
+/* MainLayout styles */
+.app-shell {
+  background: var(--bg-0);
+  color: var(--text-0);
+  min-height: 100vh;
+  position: relative;
+  animation: flicker 10s linear infinite;
+  box-shadow: inset 0 0 150px rgba(0,0,0,.6);
+}
+
+/* NavMenu styles */
+.nav {
+  position: sticky; top: 0;
+  backdrop-filter: blur(8px);
+  background: linear-gradient(to right, rgba(20, 33, 61, 0.85), rgba(20, 33, 61, 0.7));
+  border-bottom: 1px solid var(--border);
+  padding: 10px 16px;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.app-shell {
+  background: var(--bg-0);
+  color: var(--text-0);
+  min-height: 100vh;
+  position: relative;
+  animation: flicker 10s linear infinite;
+  box-shadow: inset 0 0 150px rgba(0,0,0,.6);
+}
+
+.content-wrap { 
+    padding: clamp(16px, 3vw, 32px); 
+}
+
+.scanlines {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(229, 229, 229, 0.05) 1px, transparent 1px);
+  background-size: 100% 3px;
+  opacity: .4;
+  mix-blend-mode: overlay;
+  animation: flicker 20s linear infinite reverse;
+}
+.nav {
+  position: sticky; top: 0;
+  backdrop-filter: blur(8px);
+  background: linear-gradient(to right, rgba(20, 33, 61, 0.85), rgba(20, 33, 61, 0.7));
+  border-bottom: 1px solid var(--border);
+  padding: 10px 16px;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-weight: 700; letter-spacing: .2px;
+  color: var(--text-0);
+  text-shadow: 0 0 8px rgba(252, 163, 17, 0.5);
+  display: inline-flex; align-items: center; gap: 8px;
+  animation: glitch 4s steps(2, end) infinite;
+}
+.logo .dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--accent-1);
+  box-shadow: 0 0 12px rgba(252, 163, 17, 0.7);
+  animation: pulse 2.2s var(--transition) infinite;
+}
+@keyframes pulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.15)} }
+
+@keyframes glitch {
+  0%, 100% {
+    text-shadow: 0 0 8px rgba(252, 163, 17, 0.5);
+    transform: skewX(0);
+  }
+  49% {
+    text-shadow: 0 0 8px rgba(252, 163, 17, 0.5);
+    transform: skewX(0);
+  }
+  50% {
+    text-shadow: -1px 0 var(--accent-2), 1px 0 var(--accent-1);
+    transform: skewX(-5deg);
+  }
+  51% {
+    text-shadow: 0 0 8px rgba(252, 163, 17, 0.5);
+    transform: skewX(0);
+  }
+}
+
+.links { list-style: none; margin: 0; padding: 0; display: flex; gap: 16px; }
+.links a {
+  color: var(--text-1); text-decoration: none; padding: 6px 10px; border-radius: 8px;
+  transition: background var(--transition), color var(--transition), transform var(--transition), text-shadow var(--transition);
+}
+.links a.active, .links a:hover {
+  color: var(--orange-web);
+  text-shadow: none;
+  background: rgba(252, 163, 17, 0.1);
+  box-shadow: inset 0 0 0 1px rgba(252, 163, 17, 0.3);
+  transform: translateY(-2px) scale(1.02);
+}
+
+
+
+.app-shell {
+  background: var(--bg-0);
+  color: var(--text-0);
+  min-height: 100vh;
+  position: relative;
+  animation: flicker 10s linear infinite;
+  box-shadow: inset 0 0 150px rgba(0,0,0,.6);
+}
+
+.content-wrap { 
+    padding: clamp(16px, 3vw, 32px); 
+}
+
+.scanlines {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(229, 229, 229, 0.05) 1px, transparent 1px);
+  background-size: 100% 3px;
+  opacity: .4;
+  mix-blend-mode: overlay;
+  animation: flicker 20s linear infinite reverse;
+}
+.nav {
+  position: sticky; top: 0;
+  backdrop-filter: blur(8px);
+  background: linear-gradient(to right, rgba(20, 33, 61, 0.85), rgba(20, 33, 61, 0.7));
+  border-bottom: 1px solid var(--border);
+  padding: 10px 16px;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-weight: 700; letter-spacing: .2px;
+  color: var(--text-0);
+  text-shadow: 0 0 8px rgba(252, 163, 17, 0.5);
+  display: inline-flex; align-items: center; gap: 8px;
+  animation: glitch 4s steps(2, end) infinite;
+}
+.logo .dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--accent-1);
+  box-shadow: 0 0 12px rgba(252, 163, 17, 0.7);
+  animation: pulse 2.2s var(--transition) infinite;
+}
+@keyframes pulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.15)} }
+
+@keyframes glitch {
+  0%, 100% {
+    text-shadow: 0 0 8px rgba(252, 163, 17, 0.5);
+    transform: skewX(0);
+  }
+  49% {
+    text-shadow: 0 0 8px rgba(252, 163, 17, 0.5);
+    transform: skewX(0);
+  }
+  50% {
+    text-shadow: -1px 0 var(--accent-2), 1px 0 var(--accent-1);
+    transform: skewX(-5deg);
+  }
+  51% {
+    text-shadow: 0 0 8px rgba(252, 163, 17, 0.5);
+    transform: skewX(0);
+  }
+}
+
+.links { list-style: none; margin: 0; padding: 0; display: flex; gap: 16px; }
+.links a {
+  color: var(--text-1); text-decoration: none; padding: 6px 10px; border-radius: 8px;
+  transition: background var(--transition), color var(--transition), transform var(--transition), text-shadow var(--transition);
+}
+.links a.active, .links a:hover {
+  color: var(--orange-web);
+  text-shadow: none;
+  background: rgba(252, 163, 17, 0.1);
+  box-shadow: inset 0 0 0 1px rgba(252, 163, 17, 0.3);
+  transform: translateY(-2px) scale(1.02);
+}
+
+
+
+/* === COMBINED COMPONENT STYLES FOR GITHUB PAGES === */
+
+/* MainLayout.razor.css */
+.app-shell {
+  background: var(--bg-0);
+  color: var(--text-0);
+  min-height: 100vh;
+  position: relative;
+  animation: flicker 10s linear infinite;
+  box-shadow: inset 0 0 150px rgba(0,0,0,.6);
+}
+
+/* NavMenu.razor.css */
+.nav {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(8px);
+  background: linear-gradient(to right, rgba(20, 33, 61, 0.85), rgba(20, 33, 61, 0.7));
+  border-bottom: 1px solid var(--border);
+  padding: 10px 16px;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: var(--accent-1);
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links a {
+  color: var(--text-1);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: var(--accent-1);
+}
+
+/* Missing flicker animation */
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  2%, 4%, 6%, 8%, 10%, 12% { opacity: 0.95; }
+  14%, 16%, 18% { opacity: 0.9; }
+  20%, 22% { opacity: 1; }
+  24% { opacity: 0.95; }
+  26%, 28% { opacity: 1; }
+  30% { opacity: 0.9; }
+  32%, 34%, 36%, 38% { opacity: 1; }
+}
+
+/* Missing body styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-0);
+  color: var(--text-0);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
