@@ -127,12 +127,36 @@ html, body {
     margin: 0 auto;
 }
 
-.card {
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Comprehensive Card Styles */
+.card, .about-card, .hero-card, .section-card {
     background: var(--bg-1);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     padding: 2rem;
     box-shadow: var(--shadow-2);
+    margin-bottom: 1.5rem;
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.card:hover, .about-card:hover, .hero-card:hover, .section-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-1);
+}
+
+.card h1, .card h2, .card h3, .about-card h1, .about-card h2, .about-card h3 {
+    color: var(--accent-1);
+    margin-top: 0;
+}
+
+.card p, .about-card p {
+    color: var(--text-1);
+    line-height: 1.6;
 }
 
 .about-hero h1 {
@@ -142,22 +166,23 @@ html, body {
 }
 
 /* Projects Page Styles */
-.title {
+.title, h1.title, h2.title {
     color: var(--accent-1);
     text-align: center;
     margin-bottom: 2rem;
     font-size: clamp(2rem, 4vw, 3rem);
 }
 
-.projects-grid {
+.projects-grid, .project-grid, .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 2rem;
 }
 
-.project-card {
+.project-card, .project, .project-item {
     background: var(--bg-1);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
@@ -165,9 +190,20 @@ html, body {
     transition: transform var(--transition), box-shadow var(--transition);
 }
 
-.project-card:hover {
+.project-card:hover, .project:hover, .project-item:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-1);
+}
+
+.project-card h3, .project h3, .project-item h3 {
+    color: var(--accent-1);
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.project-card p, .project p, .project-item p {
+    color: var(--text-1);
+    line-height: 1.6;
 }
 
 /* Music Page Styles */
