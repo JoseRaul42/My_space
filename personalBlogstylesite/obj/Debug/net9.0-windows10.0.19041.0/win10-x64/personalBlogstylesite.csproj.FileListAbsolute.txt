@@ -31,6 +31,12 @@ C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogs
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\personalBlogstylesite.styles.css
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\app.css
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\index.html
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-100.png
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-125.png
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-150.png
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-200.png
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-400.png
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\OpenSans-Regular.ttf
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-400.png
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-200.png
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-150.png
@@ -495,8 +501,14 @@ C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogs
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\personalBlogstylesite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauisplash.stamp
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauifont.stamp
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png

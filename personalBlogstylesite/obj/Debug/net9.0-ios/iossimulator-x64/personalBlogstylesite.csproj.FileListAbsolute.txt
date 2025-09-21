@@ -351,3 +351,4 @@ C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogs
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-ios\iossimulator-x64\personalBlogstylesite.pdb
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-ios\iossimulator-x64\personalBlogstylesite.genruntimeconfig.cache
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-ios\iossimulator-x64\ref\personalBlogstylesite.dll
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\obj\Debug\net9.0-ios\iossimulator-x64\build-signature\signature

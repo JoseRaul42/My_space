@@ -1,3 +1,11 @@
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.csproj.AssemblyReference.cache
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.AssemblyInfoInputs.cache
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.AssemblyInfo.cs
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.csproj.CoreCompileInputs.cache
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.sourcelink.json
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\bin\Debug\net9.0\personalBlogstylesite.Shared.staticwebassets.runtime.json
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\bin\Debug\net9.0\personalBlogstylesite.Shared.staticwebassets.endpoints.json
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\bin\Debug\net9.0\personalBlogstylesite.Web.Client.staticwebassets.runtime.json
@@ -49,14 +57,6 @@ C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogs
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\bin\Debug\net9.0\personalBlogstylesite.Web.Client.dll
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\bin\Debug\net9.0\personalBlogstylesite.Web.Client.pdb
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\bin\Debug\net9.0\personalBlogstylesite.Shared.pdb
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.csproj.AssemblyReference.cache
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\rpswa.dswa.cache.json
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.AssemblyInfoInputs.cache
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.AssemblyInfo.cs
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.csproj.CoreCompileInputs.cache
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.sourcelink.json
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json

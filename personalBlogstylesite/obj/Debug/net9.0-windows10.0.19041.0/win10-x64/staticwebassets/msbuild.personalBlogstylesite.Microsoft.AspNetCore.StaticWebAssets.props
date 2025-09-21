@@ -57,7 +57,7 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <FileLength>107</FileLength>
-      <LastWriteTime>Sun, 21 Sep 2025 14:24:44 GMT</LastWriteTime>
+      <LastWriteTime>Sun, 21 Sep 2025 17:43:51 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\personalBlogstylesite.styles.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>

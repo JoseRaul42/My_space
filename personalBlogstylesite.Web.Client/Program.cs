@@ -1,6 +1,7 @@
-using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+﻿using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using personalBlogstylesite.Shared.Services;
 using personalBlogstylesite.Web.Client.Services;
+using personalBlogstylesite.Web.Client;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 

@@ -26,6 +26,7 @@ wwwroot\app.css.gz
 wwwroot\personalBlogstylesite.styles.css.br
 wwwroot\index.html.br
 wwwroot\app.css.br
+OpenSans-Regular.ttf
 appicon.ico
 appiconLargeTile.scale-100.png
 appiconLargeTile.scale-125.png
@@ -77,6 +78,11 @@ dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
 dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
+splashSplashScreen.scale-100.png
+splashSplashScreen.scale-125.png
+splashSplashScreen.scale-150.png
+splashSplashScreen.scale-200.png
+splashSplashScreen.scale-400.png
 wwwroot\personalBlogstylesite.styles.css
 AboutAssets.txt
 wwwroot\app.css
