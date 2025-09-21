@@ -1,0 +1,72 @@
+name: Deploy Blazor WASM (Web.Client) to GitHub Pages
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+env:
+  DOTNET_VERSION: "9.0.x"   # set to 8.0.x if you target .NET 8
+  BASE_PATH: /${{ github.event.repository.name }}/
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Publish Web.Client (Release)
+        run: |
+          dotnet publish ./personalBlogstylesite.Web.Client/personalBlogstylesite.Web.Client.csproj -c Release -o publish
+
+      - name: Prepare Pages artifact (base href, SPA fallback, nojekyll)
+        run: |
+          DIST=publish/wwwroot
+          if [ ! -d "$DIST" ]; then
+            CANDIDATE=$(ls -d publish/**/browser-wasm/AppBundle 2>/dev/null | head -n 1 || true)
+            if [ -n "$CANDIDATE" ]; then DIST="$CANDIDATE"; fi
+          fi
+          echo "DIST is $DIST"
+          test -d "$DIST" || (echo "Publish output not found" && exit 1)
+
+          # Set base href to /<repo>/
+          if grep -q '<base href="/"' "$DIST/index.html"; then
+            sed -i 's|<base href="/"|<base href="'"$BASE_PATH"'"|' "$DIST/index.html"
+          else
+            sed -i '0,/<head>/s//<head>\n    <base href="'"$BASE_PATH"'" \/>/' "$DIST/index.html"
+          fi
+
+          # SPA fallback + disable Jekyll
+          cp "$DIST/index.html" "$DIST/404.html"
+          touch "$DIST/.nojekyll"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: publish/wwwroot
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

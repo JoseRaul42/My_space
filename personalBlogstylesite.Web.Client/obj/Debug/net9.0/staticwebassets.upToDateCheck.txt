@@ -1,4 +1,4 @@
-wwwroot\appsettings.json
 wwwroot\appsettings.Development.json
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web.Client\wwwroot\appsettings.json
+wwwroot\appsettings.json
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web.Client\wwwroot\appsettings.Development.json
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web.Client\wwwroot\appsettings.json

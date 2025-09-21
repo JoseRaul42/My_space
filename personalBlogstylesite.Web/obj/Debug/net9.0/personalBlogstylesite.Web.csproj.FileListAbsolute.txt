@@ -60,6 +60,7 @@ C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogs
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\scopedcss\bundle\personalBlogstylesite.Web.styles.css
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\compressed\65iz05093f-2j8y4bfphx.gz
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\staticwebassets.development.json
@@ -71,4 +72,3 @@ C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogs
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.pdb
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\personalBlogstylesite.Web.genruntimeconfig.cache
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\ref\personalBlogstylesite.Web.dll
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Web\obj\Debug\net9.0\compressed\65iz05093f-2j8y4bfphx.gz

@@ -1,2 +1,7 @@
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\staticwebassets.build.json

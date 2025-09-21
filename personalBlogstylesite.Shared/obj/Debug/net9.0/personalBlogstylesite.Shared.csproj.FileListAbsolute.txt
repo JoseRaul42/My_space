@@ -25,6 +25,10 @@ C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogs
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\0kobilcn04-6gzpyzhau4.gz
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\7rdzq3e7ga-8inm30yfxf.gz
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\qfkmvb036o-2omt6sgywj.gz
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\17gn8jmei9-7jhq0n9q61.gz
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\ej84wwkb79-znwmry3h60.gz
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\7sw9yghqpb-trgh71k91e.gz
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\kz9chgnrym-trgh71k91e.gz
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\staticwebassets.development.json
@@ -35,12 +39,8 @@ C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogs
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.personalBlogstylesite.Shared.props
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.personalBlogstylesite.Shared.props
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\personalBlogstylesite.Shared.dll
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\refint\personalBlogstylesite.Shared.dll
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\personalBlogstylesite.Shared.pdb
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\ref\personalBlogstylesite.Shared.dll
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\ej84wwkb79-znwmry3h60.gz
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\17gn8jmei9-7jhq0n9q61.gz
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\7sw9yghqpb-trgh71k91e.gz
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\compressed\kz9chgnrym-trgh71k91e.gz
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

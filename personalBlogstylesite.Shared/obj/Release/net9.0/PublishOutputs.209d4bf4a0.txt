@@ -1,0 +1,14 @@
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\bin\Release\net9.0\publish\personalBlogstylesite.Shared.dll
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\bin\Release\net9.0\publish\personalBlogstylesite.Shared.deps.json
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\bin\Release\net9.0\publish\personalBlogstylesite.Shared.pdb
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\bin\Release\net9.0\publish\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\bin\Release\net9.0\publish\Microsoft.AspNetCore.Components.dll
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\bin\Release\net9.0\publish\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\bin\Release\net9.0\publish\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\bin\Release\net9.0\publish\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\bin\Release\net9.0\publish\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\bin\Release\net9.0\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\bin\Release\net9.0\publish\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\bin\Release\net9.0\publish\Microsoft.Extensions.Options.dll
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\bin\Release\net9.0\publish\Microsoft.Extensions.Primitives.dll
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\bin\Release\net9.0\publish\Microsoft.JSInterop.dll
