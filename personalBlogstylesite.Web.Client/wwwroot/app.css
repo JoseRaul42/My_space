@@ -1,1 +1,27 @@
-@import url('css/theme.css');
+:root {
+  /* -- NEW COLOR PALETTE (HIGH-CONTRAST DARK MODE) -- */
+  --black: #000000;
+  --oxford-blue: #14213d;
+  --orange-web: #fca311;
+  --platinum: #e5e5e5;
+  --white: #ffffff;
+
+  /* -- THEME MAPPING -- */
+  --bg-0: var(--black);
+  --bg-1: var(--oxford-blue);
+  --bg-2: #1f3557; /* A slightly lighter oxford blue for surfaces */
+  --text-0: var(--white);
+  --text-1: var(--platinum);
+  --accent-1: var(--orange-web);
+  --accent-2: var(--oxford-blue);
+  --border: rgba(229, 229, 229, 0.25); /* platinum at 25% */
+  --muted: rgba(229, 229, 229, 0.5); /* platinum at 50% */
+  
+  /* -- LAYOUT & EFFECTS -- */
+  --radius-xl: 1.25rem; 
+  --radius-lg: .875rem;
+  --shadow-1: 0 10px 30px rgba(0,0,0,.35);
+  --shadow-2: 0 6px 18px rgba(0,0,0,.3);
+  --transition: 220ms cubic-bezier(.2,.8,.2,1);
+  --font-mono: 'IBM Plex Mono', monospace;
+}
