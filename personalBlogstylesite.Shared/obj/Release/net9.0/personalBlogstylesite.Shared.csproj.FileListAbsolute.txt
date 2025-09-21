@@ -44,3 +44,4 @@ C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogs
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Release\net9.0\refint\personalBlogstylesite.Shared.dll
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Release\net9.0\personalBlogstylesite.Shared.pdb
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Release\net9.0\ref\personalBlogstylesite.Shared.dll
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Release\net9.0\personalBlogstylesite.Shared.sourcelink.json

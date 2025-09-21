@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\scopedcss\\bundle\\personalBlogstylesite.styles.css",
+      "PackagePath": "staticwebassets\\personalBlogstylesite.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.build.personalBlogstylesite.props",
+      "PackagePath": "build\\personalBlogstylesite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.buildMultiTargeting.personalBlogstylesite.props",
+      "PackagePath": "buildMultiTargeting\\personalBlogstylesite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.buildTransitive.personalBlogstylesite.props",
+      "PackagePath": "buildTransitive\\personalBlogstylesite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.personalBlogstylesite.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.personalBlogstylesite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
