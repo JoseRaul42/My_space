@@ -40,25 +40,5 @@
       <LastWriteTime>Tue, 16 Sep 2025 21:36:23 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\personalBlogstylesite.styles.css'))">
-      <SourceType>Package</SourceType>
-      <SourceId>personalBlogstylesite</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>/</BasePath>
-      <RelativePath>personalBlogstylesite.styles.css</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>CurrentProject</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName>ScopedCss</AssetTraitName>
-      <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>2j8y4bfphx</Fingerprint>
-      <Integrity>UuBgeMa5jJSiY1Enw37AWZci55fc7VlWnf6m70BOt1E=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <FileLength>107</FileLength>
-      <LastWriteTime>Sun, 21 Sep 2025 13:26:29 GMT</LastWriteTime>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\personalBlogstylesite.styles.css'))</OriginalItemSpec>
-    </StaticWebAsset>
   </ItemGroup>
 </Project>

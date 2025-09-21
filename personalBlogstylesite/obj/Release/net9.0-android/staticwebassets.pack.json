@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite\\obj\\Release\\net9.0-android\\scopedcss\\bundle\\personalBlogstylesite.styles.css",
+      "PackagePath": "staticwebassets\\personalBlogstylesite.styles.css"
+    },
+    {
       "Id": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },

@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\personalBlogstylesite.styles.css",
-      "PackagePath": "staticwebassets\\personalBlogstylesite.styles.css"
-    },
-    {
       "Id": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },

@@ -1,4 +1,4 @@
 wwwroot\app.css
 wwwroot\index.html
-C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\wwwroot\index.html
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\wwwroot\app.css
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite\wwwroot\index.html

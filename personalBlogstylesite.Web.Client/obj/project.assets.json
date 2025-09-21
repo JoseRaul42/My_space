@@ -1640,8 +1640,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite.Shared\\personalBlogstylesite.Shared.csproj": {
-              "projectPath": "C:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite.Shared\\personalBlogstylesite.Shared.csproj"
+            "c:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite.Shared\\personalBlogstylesite.Shared.csproj": {
+              "projectPath": "c:\\Users\\Afro\\Projects\\personalBlogstylesite\\personalBlogstylesite\\personalBlogstylesite.Shared\\personalBlogstylesite.Shared.csproj"
             }
           }
         }

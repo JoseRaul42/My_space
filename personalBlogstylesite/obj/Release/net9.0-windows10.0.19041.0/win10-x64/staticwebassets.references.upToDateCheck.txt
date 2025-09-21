@@ -1,2 +1,4 @@
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Release\net9.0\staticwebassets.build.json
 C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Release\net9.0\staticwebassets.build.json
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Release\net9.0\staticwebassets.build.json
+C:\Users\Afro\Projects\personalBlogstylesite\personalBlogstylesite\personalBlogstylesite.Shared\obj\Release\net9.0\staticwebassets.build.json
